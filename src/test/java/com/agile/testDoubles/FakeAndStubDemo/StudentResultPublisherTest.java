@@ -29,6 +29,7 @@ public class StudentResultPublisherTest {
          int totalScore = resultPublisher.calculatePercentage(scores);
          //Assert
          assertEquals(89,totalScore);
+         
      }
     }
 
